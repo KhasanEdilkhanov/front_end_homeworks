@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+}
+
+img {
+    width: 40px;
+    height: 30px;
+}
+
+div {
+    margin-left: 20px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
