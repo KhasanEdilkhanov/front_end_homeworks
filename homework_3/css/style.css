@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    border: 1px solid white;
+    width: 420px;
+    height: 426px;
+    border-radius: 20px;
+    padding: 16px;
+    margin: 200px auto;
+    box-shadow: 0 20px 32px 0 rgba(96, 97, 112, 0.24);
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    margin: 0 16px;
+}
+.krestik {
+    display: flex;
+    justify-content: flex-end;
+}
+form {
+    width: 356px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input {
+    height: 48px;
+    border: 1px solid rgba(207, 216, 220, 1);
+    border-radius: 12px;
+    padding: 7px 16px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    caret-color: rgba(255, 170, 13, 1);
+
+}
+
+.input1 {
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.sign_up {
+    margin-bottom: 8px;
+    background-color: rgba(255, 228, 77, 1);
+    border: none;
+}
+
+button {
+    width: 356px;
+    height: 48px;
+    border-radius: 55px;
+    padding: 14px 24px 14px 24px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+p {
+    margin: 24px 16px;
+    font-size: 12px;
+    width: 356px;
+    height: 42px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+}
+.div_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.voyti {
+    border: 1px solid rgba(207, 216, 220, 1);
+    background-color: white;   
+}
+::placeholder {
+    color: rgba(123, 142, 152, 1);
+}
+input:focus {
+    outline-color: rgba(255, 228, 77, 1)
+}
